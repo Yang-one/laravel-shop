@@ -62,6 +62,7 @@
                                                             @endif
                                                         </td>
                                                         <a class="btn btn-primary btn-sm" href="{{ route('orders.show', ['order' => $order->id]) }}">查看订单</a>
+
                                                     @endif
                                                 </tr>
                                             @endforeach
